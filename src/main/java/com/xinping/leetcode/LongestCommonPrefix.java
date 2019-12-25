@@ -1,6 +1,5 @@
 package com.xinping.leetcode;
 
-
 public class LongestCommonPrefix {
 
     /**
