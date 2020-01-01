@@ -1,4 +1,6 @@
-package com.xinping.leetcode;
+package com.xinping.leetcode.solutions;
+
+import com.xinping.leetcode.utils.ListNode;
 
 public class AddTwoNumbers {
 

@@ -1,4 +1,4 @@
-package com.xinping.leetcode;
+package com.xinping.leetcode.solutions;
 
 public class ImplementStrStr {
 

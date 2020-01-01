@@ -1,13 +1,6 @@
-package com.xinping.leetcode;
+package com.xinping.leetcode.solutions;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
+import com.xinping.leetcode.utils.ListNode;
 
 public class MergeTwoSortedLists {
 
