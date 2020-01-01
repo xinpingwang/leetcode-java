@@ -40,7 +40,7 @@ public class MergeTwoSortedLists {
      * <p>
      * 1ms, 81.26%
      */
-    public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
+    public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
         ListNode mergedList = null;
         ListNode l1Ptr = l1, l2Ptr = l2, mergedListPtr = null;
 
