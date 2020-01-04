@@ -8,13 +8,13 @@ import java.util.Map;
 
 public class ZigzagConversionTest extends TestCase {
 
-    HashMap<Map.Entry<String, Integer>, String> testCases = new HashMap<Map.Entry<String, Integer>, String>();
+    HashMap<Map.Entry<String, Integer>, String> testCases = new HashMap<>();
 
     public void setUp() throws Exception {
         super.setUp();
-        testCases.put(new AbstractMap.SimpleEntry<String, Integer>("LEETCODEISHIRING", 3), "LCIRETOESIIGEDHN");
-        testCases.put(new AbstractMap.SimpleEntry<String, Integer>("LEETCODEISHIRING", 4), "LDREOEIIECIHNTSG");
-        testCases.put(new AbstractMap.SimpleEntry<String, Integer>("A", 1), "A");
+        testCases.put(new AbstractMap.SimpleEntry<>("LEETCODEISHIRING", 3), "LCIRETOESIIGEDHN");
+        testCases.put(new AbstractMap.SimpleEntry<>("LEETCODEISHIRING", 4), "LDREOEIIECIHNTSG");
+        testCases.put(new AbstractMap.SimpleEntry<>("A", 1), "A");
     }
 
     public void testConvert() {

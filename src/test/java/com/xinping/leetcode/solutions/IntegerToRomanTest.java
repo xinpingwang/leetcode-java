@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class IntegerToRomanTest extends TestCase {
 
-    HashMap<Integer, String> testCases = new HashMap<Integer, String>();
+    HashMap<Integer, String> testCases = new HashMap<>();
 
     public void setUp() throws Exception {
         super.setUp();

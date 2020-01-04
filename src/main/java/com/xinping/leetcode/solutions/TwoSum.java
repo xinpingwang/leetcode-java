@@ -33,7 +33,7 @@ public class TwoSum {
     public int[] twoSum1(int[] nums, int target) {
         int[] result = new int[2];
 
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
@@ -60,11 +60,7 @@ public class TwoSum {
         for (int i = 0; i < indexes.length; i++) {
             indexes[i] = i;
         }
-        Arrays.sort(indexes, new Comparator<Integer>() {
-            public int compare(Integer num1, Integer num2) {
-                return nums[num1] - nums[num2];
-            }
-        });
+        Arrays.sort(indexes, (num1, num2) -> nums[num1] - nums[num2]);
         int i = 0, j = nums.length - 1;
         while (i < j) {
             int sum = nums[indexes[i]] + nums[indexes[j]];

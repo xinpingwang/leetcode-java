@@ -10,7 +10,7 @@ public class RomanToInteger {
      * 9ms, 58.63%
      */
     public int romanToInt(String s) {
-        HashMap<Character, Integer> valueMap = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> valueMap = new HashMap<>();
         valueMap.put('I', 1);
         valueMap.put('V', 5);
         valueMap.put('X', 10);
