@@ -2,10 +2,7 @@ package com.xinping.leetcode.solutions;
 
 import com.xinping.leetcode.utils.ListNode;
 
-import java.util.List;
-
 public class MergeKSortedLists {
-
 
     /**
      * 转化为合并两个有序链表
