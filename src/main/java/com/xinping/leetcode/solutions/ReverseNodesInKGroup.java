@@ -5,7 +5,7 @@ import com.xinping.leetcode.utils.ListNode;
 public class ReverseNodesInKGroup {
 
     /**
-     * 结合反转链表中指定位置的方式
+     * 结合反转链表中指定区间内的节点: https://leetcode-cn.com/problems/reverse-linked-list-ii/
      * <p>
      * 1ms, 78.10%
      */
