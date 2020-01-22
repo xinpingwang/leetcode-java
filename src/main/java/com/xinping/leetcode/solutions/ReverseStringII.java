@@ -2,9 +2,8 @@ package com.xinping.leetcode.solutions;
 
 public class ReverseStringII {
 
-
     /**
-     * 注意度题
+     * 注意读题
      * <p>
      * 1ms, 93.15%
      */
